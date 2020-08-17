@@ -1,0 +1,26 @@
+{
+  "name": "mail-service",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "https://github.com/daint2git/mail-service.git",
+  "author": "daint2 <daint2dev@gmail.com>",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.0.5"
+  },
+  "scripts": {
+    "install:client": "cd ./client && yarn install",
+    "install:server": "cd ./server && yarn install",
+    "install:all": "npm-run-all -p install:client install:server",
+    "start:dev:client": "cd ./client && yarn dev",
+    "start:dev:server": "cd ./server && yarn dev",
+    "start:dev:all": "npm-run-all -p start:dev:client start:dev:server",
+    "lint:client": "cd ./client && yarn lint",
+    "lint:server": "cd ./server && yarn lint",
+    "lint:all": "npm-run-all -p lint:client lint:server"
+  }
+}
