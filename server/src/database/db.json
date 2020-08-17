@@ -1,0 +1,16 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "name": "xxx template",
+      "subject": "xxx subject",
+      "body": "<p>Hello xxx</p><p><i>Dear Mr/Ms xxx</i></p><p>From: abc</p>"
+    },
+    {
+      "id": 2,
+      "name": "yyy template",
+      "subject": "yyy subject",
+      "body": "<p>Hello yyy</p><ol><li>Option 1</li><li>Option 2</li><li>Option 3</li></ol>"
+    }
+  ]
+}
